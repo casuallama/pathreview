@@ -50,12 +50,12 @@ Setting up environment well, I did not do that last assignment because it was a 
 
 ### Check-in 2 (end of week)
 
-**PR link:** 
+**PR link:** https://github.com/ascherj/pathreview/pull/793
 
 **Branch:** docs/17-api-curl-examples
 
 **What you built:**
-I added the curl examples to the API documentation 
+I added the curl examples to the API documentation.
 
 **Tests added or updated:**
 Did not touch any test files.
