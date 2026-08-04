@@ -29,7 +29,37 @@ Reviewed `docs/API.md` and confirmed every listed endpoint (health, auth, profil
 
 **PLAN.md link:** https://github.com/casuallama/pathreview/blob/docs/117-api-curl-examples/PLAN.md
 
-**Walkthrough video (recommended):** [link to your Loom video, ≤2 min — recommended, not graded]
+**Walkthrough video (recommended):** 
 
 **Blockers or open questions:**
 Should I also document PUT /profiles/{profile_id} and GET /reviews/{review_id}/status?
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+I have not implemented anything. Still getting around to working on this project.
+
+**Next steps:**
+Setting up environment well, I did not do that last assignment because it was a documentation issue so I didn't see the need to. And then implementing my changes to the API docs.
+
+**Blockers:**
+
+---
+
+### Check-in 2 (end of week)
+
+**PR link:** 
+
+**Branch:** docs/17-api-curl-examples
+
+**What you built:**
+I added the curl examples to the API documentation 
+
+**Tests added or updated:**
+Did not touch any test files.
+
+**Self-review confirmation:** [x] make check passes  [x] make test-unit passes
+
+**Draft PR feedback received from:** none
