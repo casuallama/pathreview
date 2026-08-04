@@ -81,7 +81,7 @@ curl -X POST http://localhost:8000/profiles \
   -H "Authorization: Bearer $TOKEN" \
   -F "github_username=janedoe" \
   -F "portfolio_url=https://jane.dev" \
-  -F "resume_file=@resume.pdf;type=application/pdf"
+  -F "resume_file=@resume.md;type=text/markdown"
 ```
 
 ```json
@@ -98,7 +98,7 @@ curl -X POST http://localhost:8000/profiles \
 `GET /profiles/{profile_id}` — Retrieve a profile.
 
 ```bash
-curl http://localhost:8000/profiles/5b1f6c0a-2e3d-4b8a-9c1f-7a2e6d4b8f31 \
+curl http://localhost:8000/profiles/<profile_id> \
   -H "Authorization: Bearer $TOKEN"
 ```
 
@@ -116,7 +116,7 @@ curl http://localhost:8000/profiles/5b1f6c0a-2e3d-4b8a-9c1f-7a2e6d4b8f31 \
 `DELETE /profiles/{profile_id}` — Delete a profile and associated data.
 
 ```bash
-curl -X DELETE http://localhost:8000/profiles/5b1f6c0a-2e3d-4b8a-9c1f-7a2e6d4b8f31 \
+curl -X DELETE http://localhost:8000/profiles/<profile_id> \
   -H "Authorization: Bearer $TOKEN"
 ```
 
@@ -130,7 +130,7 @@ Returns `204 No Content` with an empty body on success.
 curl -X POST http://localhost:8000/reviews \
   -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"profile_id": "5b1f6c0a-2e3d-4b8a-9c1f-7a2e6d4b8f31"}'
+  -d '{"profile_id": "<profile_id>"}'
 ```
 
 ```json
@@ -149,7 +149,7 @@ curl -X POST http://localhost:8000/reviews \
 `GET /reviews/{review_id}` — Retrieve a completed review.
 
 ```bash
-curl http://localhost:8000/reviews/8f4c2a91-6b3d-4e7a-9c5f-1a2b3c4d5e6f \
+curl http://localhost:8000/reviews/<review_id> \
   -H "Authorization: Bearer $TOKEN"
 ```
 
