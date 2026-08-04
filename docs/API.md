@@ -2,6 +2,8 @@
 
 Base URL: `http://localhost:8000`
 
+<!-- missing curl examples for each endpoint here -->
+
 ## Endpoints
 
 ### Health
