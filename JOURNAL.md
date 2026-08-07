@@ -63,3 +63,34 @@ Did not touch any test files.
 **Self-review confirmation:** [x] make check passes  [x] make test-unit passes
 
 **Draft PR feedback received from:** none
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [x] No — still awaiting review
+
+**Summary of feedback:**
+No review came in.
+
+**How you responded:**
+N/A
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+The setup for this project was more difficult than I expected, especially the docker setup. I ended up having to go into my BIOS and enabling virtualization because it wasn't on by default. I was also tripped up with switching between Git Bash and Powershell as well, so commands I expected to work did not and I spent time debugging when it was just a matter of switching.
+
+**What did you learn about working in a large codebase?**
+Getting familiar with the codebase is always a step you must take when working with a project like this. With my own projects, I'm usually familiar with every file and function and my personal projects are usually simpler. With this project, I learned that documentation was extremely helpful when working in a large codebase, as it provides you with concrete information and a good place to start.
+
+**How did AI tools help — and where did they fall short?**
+AI assistant was the most helpful when summarizing the file structure and overall functionality of the project and its modules. Where it fell short was helping me test certain outputs with curl commands. This was expected though, because I needed to do this on my own terminal and with my local variables.
+
+**What would you do differently if you started over?**
+I think I would have chosen a different issue. Although it was interesting contributing to the actual documentation for a real project, I wish that I had chosen an issue that had some coding. It would have been a nice experience to have hands on practice with an open source project.
+
+**What are you most proud of from this module?**
+I am proud of learning how the PR process works and the conventions around it. I think that it is very important for people who don't have professional experience with Github. Now that I've practiced this I can even find and contribute to other open source projects or bring that experience to the workplace.
